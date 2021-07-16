@@ -1,3 +1,6 @@
+provider azurerm {
+   features {}
+}
 
 module testvpc {
   source = "./modules/vnet"
